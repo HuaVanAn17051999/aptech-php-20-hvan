@@ -1,0 +1,80 @@
+.box {
+    background-color: #EEEEEE;
+    height: auto;
+    width: 800px;
+    padding: 10px;
+    border: 10px solid blue;
+    box-sizing: content-box;
+    text-align: center;
+    margin-left: 333px;
+}
+
+.cangiua {
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.padding {
+    padding-left: 15px;
+}
+
+h3#italicized {
+    text-decoration: underline;
+}
+
+.fex {
+    display: flex;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: 2px dotted black;
+    box-sizing: content-box;
+    padding: 50px;
+    background-color: white;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+
+.bold {
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.a {
+    text-align: left;
+}
+
+.dashed {
+    /* text-decoration-line: underline;
+    text-decoration-style: dashed; */
+    color: red;
+    padding-right: 10em;
+}
+
+.indent {
+    text-indent: 1.5em;
+}
+
+p.indent {
+    text-indent: 1.5em;
+}
+
+.lsbt {
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Arial Black;
+}
+
+.center {
+    text-align: center;
+}
