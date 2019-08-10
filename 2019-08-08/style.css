@@ -1,0 +1,28 @@
+.col-2 {
+    height: 50px;
+}
+
+.col-4 {
+    height: 50px;
+}
+
+.col-6 {
+    height: 50px;
+}
+
+.col-8 {
+    height: 50px;
+}
+
+.col-3 {
+    height: 50px;
+}
+
+.wh {
+    height: 5px;
+    width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}

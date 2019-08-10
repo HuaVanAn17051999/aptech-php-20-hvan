@@ -1,11 +1,17 @@
-.a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.mau-nen {
+    background-color: lightgray;
 }
 
-.dangky {
+.container {
+    background-color: white;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    /* outline-style: double;
+    outline-color: lightgray; */
     display: flex;
     justify-content: center;
     align-items: center;

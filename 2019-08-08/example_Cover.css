@@ -1,0 +1,72 @@
+.body {
+    background-color: #333333;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+}
+
+.head {
+    height: 10vh;
+}
+
+.nav-item a:hover {
+    border-bottom-color: rgba(255, 255, 255, .5);
+}
+
+
+/* .hv {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5000;
+} */
+
+.family {
+    font-family: fantasy;
+    height: 80vh;
+}
+
+button.btn-primary.btn-light {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.bottom {
+    color: rgba(255, 255, 255, 0.5);
+    height: 10vh;
+}
+
+.bd {
+    border-bottom-color: #fff;
+}
+
+.noidung {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 300;
+    font-family: Lucida Sans Unicode;
+}
+
+
+/* .b {
+    font-size: 1.25rem;
+    font-weight: 300;
+    height: 100vh;
+}
+
+.v {
+    height: 10vh;
+} */
+
+.f-z {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.nav-itemag {
+    border-bottom-color: white;
+}
+
+s
