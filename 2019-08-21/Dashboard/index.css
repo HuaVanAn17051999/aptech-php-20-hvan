@@ -1,0 +1,18 @@
+.Header__Row__Column__Navbar__Input--border-radius {
+  border-radius: 0;
+  border: 0;
+  margin: 5px 0;
+}
+
+.Header__Row__Column__Navbar__Input--background-color {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Content {
+  margin-top: 48px;
+}
+
+.Content__Row__Column__Sidebar__Ul--List-style {
+  list-style: none;
+}
+/*# sourceMappingURL=index.css.map */

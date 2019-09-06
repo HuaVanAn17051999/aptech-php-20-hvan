@@ -1,0 +1,158 @@
+        .Header {
+            &__Row {
+                &--Border-bottom {
+                    border-bottom: 1px solid #e5e5e5;
+                }
+                &__Column-One {
+                    &__A {
+                        &--Text-decoration {
+                            text-decoration: none;
+                        }
+                        &--Color {
+                            color: #6c757d;
+                        }
+                        &--Hover-button:hover {
+                            border-bottom-color: #6c757d;
+                            color: #6c757d;
+                            ;
+                        }
+                    }
+                }
+                &__Column-Two {
+                    &__A2 {
+                        &--Text-decoration {
+                            text-decoration: none;
+                        }
+                        &--Color {
+                            color: #6c757d;
+                        }
+                        &--size {
+                            font-size: 2.25rem;
+                            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+                            color: black;
+                        }
+                        &--Hover-button:hover {
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            &__Row-Two {
+                &__A {
+                    &--Text-decaration {
+                        text-decoration: none;
+                        color: #6c757d;
+                    }
+                    &--Hover:hover {
+                        border-bottom-color: #6c757d;
+                        color: #6c757d;
+                    }
+                }
+            }
+        }
+        
+        .Container-Two {
+            &__Row {
+                &__Column {
+                    &__Jumbotron {
+                        &--Padding-right {
+                            padding-right: 50%;
+                        }
+                        &__Title {
+                            &--font {
+                                font-size: 2.5rem;
+                                font-family: Book Antiqua;
+                                font-style: initial;
+                                padding-top: 0;
+                                color: white;
+                                font-style: oblique;
+                            }
+                        }
+                        &__introduce {
+                            &--font-family {
+                                font-family: Courier New;
+                            }
+                        }
+                        &__Text {
+                            &--font-family {
+                                font-family: Arial Black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .Purport {
+            &__Row {
+                &__Column {
+                    &__text {
+                        &--font {
+                            font-style: oblique;
+                        }
+                        &--Border-bottom {
+                            border-bottom: 1px solid gray;
+                        }
+                    }
+                    &__btn {
+                        &--border-radius {
+                            border-radius: 100px;
+                        }
+                    }
+                }
+                &__Column-Two {
+                    &__jumbotron--padding {
+                        padding: 1.5rem;
+                    }
+                    &__Text {
+                        &--font-style {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .Footer {
+            &__Row {
+                &__Column {
+                    &--height {
+                        height: 170px;
+                    }
+                    &--background-color {
+                        background-color: #f9f9f9;
+                    }
+                    &__Text {
+                        &--Color {
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .Container-Three {
+                &__Row {
+                    &__Column-One {
+                        &__Card {
+                            &__Row {
+                                &__Col-4 {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    &__Column-Two {
+                        &__Card {
+                            &__Row {
+                                &__Col-4 {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }

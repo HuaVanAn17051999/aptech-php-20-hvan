@@ -1,0 +1,108 @@
+.Header__Row--Border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.Header__Row__Column-One__A--Text-decoration {
+  text-decoration: none;
+}
+
+.Header__Row__Column-One__A--Color {
+  color: #6c757d;
+}
+
+.Header__Row__Column-One__A--Hover-button:hover {
+  border-bottom-color: #6c757d;
+  color: #6c757d;
+}
+
+.Header__Row__Column-Two__A2--Text-decoration {
+  text-decoration: none;
+}
+
+.Header__Row__Column-Two__A2--Color {
+  color: #6c757d;
+}
+
+.Header__Row__Column-Two__A2--size {
+  font-size: 2.25rem;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  color: black;
+}
+
+.Header__Row__Column-Two__A2--Hover-button:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.Header__Row-Two__A--Text-decaration {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.Header__Row-Two__A--Hover:hover {
+  border-bottom-color: #6c757d;
+  color: #6c757d;
+}
+
+.Container-Two__Row__Column__Jumbotron--Padding-right {
+  padding-right: 50%;
+}
+
+.Container-Two__Row__Column__Jumbotron__Title--font {
+  font-size: 2.5rem;
+  font-family: Book Antiqua;
+  font-style: initial;
+  padding-top: 0;
+  color: white;
+  font-style: oblique;
+}
+
+.Container-Two__Row__Column__Jumbotron__introduce--font-family {
+  font-family: Courier New;
+}
+
+.Container-Two__Row__Column__Jumbotron__Text--font-family {
+  font-family: Arial Black;
+}
+
+.Purport__Row__Column__text--font {
+  font-style: oblique;
+}
+
+.Purport__Row__Column__text--Border-bottom {
+  border-bottom: 1px solid gray;
+}
+
+.Purport__Row__Column__btn--border-radius {
+  border-radius: 100px;
+}
+
+.Purport__Row__Column-Two__jumbotron--padding {
+  padding: 1.5rem;
+}
+
+.Purport__Row__Column-Two__Text--font-style {
+  font-style: italic;
+}
+
+.Footer__Row__Column--height {
+  height: 170px;
+}
+
+.Footer__Row__Column--background-color {
+  background-color: #f9f9f9;
+}
+
+.Footer__Row__Column__Text--Color {
+  color: #999;
+}
+
+@media screen and (max-width: 768px) {
+  .Container-Three__Row__Column-One__Card__Row__Col-4 {
+    display: none;
+  }
+  .Container-Three__Row__Column-Two__Card__Row__Col-4 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

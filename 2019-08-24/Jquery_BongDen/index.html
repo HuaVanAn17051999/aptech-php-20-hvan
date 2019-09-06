@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+    <img src="./pic_bulboff.gif" alt="" id="anh">
+    <button onclick="tatmo();">On/Off</button>
+
+    <script>
+        function tatmo() {
+            $(document).ready(function() {
+                var a = $("#anh").attr("src");
+                // console.log(a);
+                if (a == "pic_bulboff.gif") {
+                    $("#anh").attr("src", "pic_bulbon.gif")
+
+                } else {
+                    $("#anh").attr("src", "pic_bulboff.gif")
+                }
+
+
+
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>

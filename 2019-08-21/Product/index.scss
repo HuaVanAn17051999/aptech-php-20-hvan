@@ -1,0 +1,61 @@
+    .Images {
+        &__Row {
+            &__Column {
+                &__anh {
+                    height: 500px;
+                    background-image: url("a.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    // margin-top: 53px;
+                }
+            }
+        }
+    }
+    
+    .Content {
+        &__Row {
+            &__Colum-One {
+                &__Big {
+                    &--height {
+                        height: 400px;
+                    }
+                    &__Box {
+                        margin-left: 110px;
+                        margin-right: 110px;
+                        &__Border {
+                            height: 266px;
+                            border-top-left-radius: 50px;
+                            border-top-right-radius: 50px;
+                        }
+                    }
+                }
+            }
+            &__Colum-Two {
+                &__Big--height {
+                    height: 400px;
+                }
+            }
+        }
+    }
+    
+    .Footer {
+        height: 300px;
+        &__Row {
+            &__Column {
+                &__Li {
+                    &--list-style {
+                        list-style: none;
+                    }
+                    &__A {
+                        &--Color {
+                            color: #6c757d;
+                        }
+                        &--Horver-bottom:hover {
+                            color: #6c757d;
+                        }
+                    }
+                }
+            }
+        }
+    }

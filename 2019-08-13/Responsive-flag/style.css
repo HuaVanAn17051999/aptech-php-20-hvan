@@ -1,0 +1,31 @@
+.Container{
+    display: flex
+}
+.Container__First,
+.Container__Second,
+.Container__Third{
+    width: 33.33%;
+    height: 100px;
+}
+.Container__First{
+    background-color: red;
+}
+.Container__Second{
+    background-color: blue;
+}
+.Container__Third{
+    background-color: green;
+}
+@media screen and (max-width: 575px) {
+    .Container__First {
+      background-color: blue;
+    }
+  
+    .Container__Second {
+      background-color: green;
+    }
+  
+    .Container__Third {
+      background-color: red;
+    }
+  }

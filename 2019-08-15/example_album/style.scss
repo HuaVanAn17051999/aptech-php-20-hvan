@@ -1,0 +1,29 @@
+.Header {
+    height: 60px;
+    &__Row {
+        &__Column {
+            &__Button {
+                &--Border {
+                    border: 1px solid black;
+                    border-radius: 3px;
+                }
+                &__Street {
+                    border: 1px solid gray;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
+
+.Introduce {
+    &__Row {
+        &__Column {
+            &__UL {
+                &--list-style {
+                    list-style: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.Header {
+    height: 60px;
+}
+
+.Header__Row__Column__Button--Border {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.Header__Row__Column__Button__Street {
+    border: 1px solid gray;
+    width: 25px;
+}
+
+.Introduce__Row__Column__UL--list-style {
+    list-style: none;
+}
+
+
+/*# sourceMappingURL=style.css.map */

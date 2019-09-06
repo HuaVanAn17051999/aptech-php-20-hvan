@@ -1,0 +1,55 @@
+.Header__Row__Column__One--background-color {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+}
+
+.Header__Row__Column__One--size {
+  width: 150px;
+  height: 150px;
+}
+
+.Header__Row__Column__Two--background-color {
+  background-color: red;
+}
+
+.Header__Row__Column__Two--size {
+  width: 150px;
+  height: 150px;
+}
+
+.Header__Row__Column__Three--background-color {
+  background-color: yellow;
+}
+
+.Header__Row__Column__Three--size {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 240px) {
+  .Header__Row__Column__One--background-color {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+  }
+  .Header__Row__Column__One--size {
+    width: 150px;
+    height: 150px;
+  }
+  .Header__Row__Column__Two--background-color {
+    background-color: blue;
+  }
+  .Header__Row__Column__Two--size {
+    width: 150px;
+    height: 150px;
+  }
+  .Header__Row__Column__Three--background-color {
+    background-color: red;
+  }
+  .Header__Row__Column__Three--size {
+    width: 150px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

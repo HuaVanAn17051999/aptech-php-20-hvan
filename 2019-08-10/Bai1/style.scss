@@ -1,0 +1,77 @@
+$Three-pixels : 150px;
+.Header{
+    &__Row{
+        &__Column{
+            &__One{
+                &--background-color{
+                    background-color: blue;
+                    // width: $Three-pixels;
+                    // height: $Three-pixels;
+                    width: $Three-pixels;
+                    height: $Three-pixels;
+                }
+                &--size{
+                    width: $Three-pixels;
+                    height: $Three-pixels;
+                }
+            }
+            &__Two{
+                &--background-color{
+                    background-color: red
+                }
+                &--size{
+                    width: $Three-pixels;
+                    height: $Three-pixels;
+                }
+            }
+            &__Three{
+                &--background-color{
+                    background-color: yellow;
+                }
+                &--size{
+                    width: $Three-pixels;
+                    height: $Three-pixels;
+                }
+            }
+        }
+    }
+}   
+@media screen and (max-width: 240px){
+    .Header{
+        &__Row{
+            &__Column{
+                &__One{
+                    &--background-color{
+                        background-color: yellow;
+                        // width: $Three-pixels;
+                        // height: $Three-pixels;
+                        width: $Three-pixels;
+                        height: $Three-pixels;
+                    }
+                    &--size{
+                        width: $Three-pixels;
+                        height: $Three-pixels;
+                    }
+                }
+                &__Two{
+                    &--background-color{
+                        background-color: blue
+                    }
+                    &--size{
+                        width: $Three-pixels;
+                        height: $Three-pixels;
+                    }
+                }
+                &__Three{
+                    &--background-color{
+                        background-color: red;
+                    }
+                    &--size{
+                        width: $Three-pixels;
+                        height: $Three-pixels;
+                    }
+                }
+            }
+        }
+    }   
+}

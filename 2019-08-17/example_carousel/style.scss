@@ -1,0 +1,85 @@
+//  .Slide {
+//      &__Row {
+//          &__Column {
+//              &__Bd-example {
+//                  &__Slide-item {
+//                      &__Carousel-inner {
+//                          &__Carousel-item {
+//                              height: 500px;
+//                              background-color: #777777;
+//                              &__Carousel-caption {
+//                                  &__Size {
+//                                      font-size: 1.25rem;
+//                                      margin-bottom: 1.25rem;
+//                                      line-height: 1.4;
+//                                  }
+//                                  &__btn {
+//                                      &--margin-bottom {
+//                                          margin-bottom: 35px;
+//                                      }
+//                                  }
+//                              }
+//                          }
+//                      }
+//                  }
+//              }
+//          }
+//      }
+//  }
+.Introduce {
+    &__Row {
+        &__Column {
+            &__Circle {
+                &--background-color {
+                    background-color: gray;
+                }
+                &--big {
+                    width: 150px;
+                    height: 150px;
+                }
+                &--margin-top {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+    &__Row-Two {
+        &__Column {
+            &--border-bottom {
+                // border-bottom-style: solid;
+                // border-bottom-color: gray;
+                border-bottom: 1px solid gray;
+                margin: 5rem 0;
+            }
+        }
+    }
+}
+
+.Container-Content {
+    &__Row {
+        &__Column-Two {
+            &--size {
+                height: 500px;
+            }
+            &--background-color {
+                background-color: rgb(238, 238, 238);
+                // margin-bottom: 50px;
+            }
+            //     &__Size--big {
+            //         // height: 100vh;
+            //     }
+            // }
+            &__Center {
+                height: 100%;
+            }
+        }
+    }
+    &__Row-Two {
+        &__Column {
+            &--border-bottom {
+                border-bottom: 1px solid gray;
+                margin: 5rem 0;
+            }
+        }
+    }
+}

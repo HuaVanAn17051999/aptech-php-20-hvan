@@ -1,0 +1,50 @@
+.Slide__Row__Column__Bd-example__Slide-item__Carousel-inner__Carousel-item {
+  height: 500px;
+  background-color: #777777;
+}
+
+.Slide__Row__Column__Bd-example__Slide-item__Carousel-inner__Carousel-item__Carousel-caption__Size {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.4;
+}
+
+.Slide__Row__Column__Bd-example__Slide-item__Carousel-inner__Carousel-item__Carousel-caption__btn--margin-bottom {
+  margin-bottom: 35px;
+}
+
+.Introduce__Row__Column__Circle--background-color {
+  background-color: gray;
+}
+
+.Introduce__Row__Column__Circle--big {
+  width: 150px;
+  height: 150px;
+}
+
+.Introduce__Row__Column__Circle--margin-top {
+  margin-top: 50px;
+}
+
+.Introduce__Row-Two__Column--border-bottom {
+  border-bottom: 1px solid gray;
+  margin: 5rem 0;
+}
+
+.Container-Content__Row__Column-Two--size {
+  height: 500px;
+}
+
+.Container-Content__Row__Column-Two--background-color {
+  background-color: #eeeeee;
+}
+
+.Container-Content__Row__Column-Two__Center {
+  height: 100%;
+}
+
+.Container-Content__Row-Two__Column--border-bottom {
+  border-bottom: 1px solid gray;
+  margin: 5rem 0;
+}
+/*# sourceMappingURL=style.css.map */

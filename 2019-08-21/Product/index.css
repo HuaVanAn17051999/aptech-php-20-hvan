@@ -1,0 +1,43 @@
+.Images__Row__Column__anh {
+  height: 500px;
+  background-image: url("a.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Content__Row__Colum-One__Big--height {
+  height: 400px;
+}
+
+.Content__Row__Colum-One__Big__Box {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.Content__Row__Colum-One__Big__Box__Border {
+  height: 266px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.Content__Row__Colum-Two__Big--height {
+  height: 400px;
+}
+
+.Footer {
+  height: 300px;
+}
+
+.Footer__Row__Column__Li--list-style {
+  list-style: none;
+}
+
+.Footer__Row__Column__Li__A--Color {
+  color: #6c757d;
+}
+
+.Footer__Row__Column__Li__A--Horver-bottom:hover {
+  color: #6c757d;
+}
+/*# sourceMappingURL=index.css.map */

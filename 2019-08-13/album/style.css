@@ -1,0 +1,37 @@
+.Container-One__Row-One__Column__Text--size {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.Container-One__Row-One__Column__font--size {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.Container-One__Row-One__Column__BTN-One--size {
+  width: 177px;
+  margin-right: 5px;
+}
+
+.Container-One__Row-One__Column__BTN-Two--size {
+  width: 177px;
+}
+
+.Background--color {
+  background-color: #f8f9fa !important;
+}
+
+.Background__Container-Two__Row__Column__Card__Card-body__Group__Border-One--Border-radius {
+  border-color: black;
+  padding: 10px;
+  background-color: white;
+  border-top-left-radius: 5px;
+}
+
+.Background__Container-Two__Row__Column__Card__Card-body__Group__Border-Two--Border-radius {
+  border-color: black;
+  padding: 10px;
+  background-color: white;
+  border-top-left-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

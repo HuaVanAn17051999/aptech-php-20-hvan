@@ -1,0 +1,22 @@
+$height :100vh;
+$input_width: 3000px;
+$input_height: 460px;
+.Container{
+    &__Row{
+        &__Substance{
+            &--height-100vh{
+                height: $height;
+            }
+            &__Input{
+                &--size{
+                    width: $input_width;
+                    height: $input_height;
+                }
+                &--border-top-radius{
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+            }
+        }
+    }
+}
