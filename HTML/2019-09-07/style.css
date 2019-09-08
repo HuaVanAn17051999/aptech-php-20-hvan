@@ -1,0 +1,23 @@
+.Slider__Row__Column__Div__Carousel__One {
+  background-image: url(./d1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Slider__Row__Column__Div__Carousel__Two {
+  background-image: url(./d2.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Slider__Row__Column__Div__Carousel__Three {
+  background-image: url(./b4.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

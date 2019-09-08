@@ -1,0 +1,30 @@
+.Slider {
+    &__Row {
+        &__Column {
+            &__Div {
+                &__Carousel {
+                    &__One {
+                        background-image: url(./d1.jpg);
+                        height: 400px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    &__Two {
+                        background-image: url(./d2.jpg);
+                        height: 400px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    &__Three {
+                        background-image: url(./b4.jpg);
+                        height: 400px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+}
