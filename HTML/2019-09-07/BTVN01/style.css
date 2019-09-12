@@ -1,0 +1,15 @@
+.Header {
+  background-image: url(./d2.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Content__Row__Img {
+  background-image: url(./html.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+.Header {
+    &__RowOne {
+        &__Column {
+            &__NAV {
+                border-radius: 5px;
+            }
+        }
+    }
+    &__Row {
+        &__Column {
+            &__UL {
+                &__LI {
+                    list-style: none;
+                    &__A {
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Introduce {
+    &__Row {
+        &__Column {
+            &__Card {
+                &--border-radius {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+
+.Footer {
+    &__Row {
+        &__ColumnTwo {
+            &__UL {
+                &__LI {
+                    list-style: none;
+                    &__A {
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+    }
+}

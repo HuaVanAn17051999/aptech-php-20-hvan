@@ -1,0 +1,24 @@
+.Header__RowOne__Column__NAV {
+  border-radius: 5px;
+}
+
+.Header__Row__Column__UL__LI {
+  list-style: none;
+}
+
+.Header__Row__Column__UL__LI__A {
+  text-decoration: none !important;
+}
+
+.Introduce__Row__Column__Card--border-radius {
+  border-radius: 0;
+}
+
+.Footer__Row__ColumnTwo__UL__LI {
+  list-style: none;
+}
+
+.Footer__Row__ColumnTwo__UL__LI__A {
+  text-decoration: none !important;
+}
+/*# sourceMappingURL=style.css.map */
